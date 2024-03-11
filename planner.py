@@ -28,15 +28,15 @@ def MPCplanner(x0,v0,y0,fi0,x1, x_des,v1, y_des, step,N,w1,w2,w3, w4,w5):
     #定义系统动态方程 x(k+1) = A*x(k) + B*u(k)
     A = np.array([[1, step, 0, 0],
                   [0, 1, 0, 0],
-                  [0, 0, 1, v0],
+                  [0, 0, 1, v0*step],
                   [0, 0, 0, 1]])        
     B = np.array([[0.5 * step ** 2, 0],
                   [step, 0],
                   [0, 0],
                   [0, step * v0/4]])
     #定义目标状态和控制输入的权重矩阵 Q 和 R
-    Q = np.diag([w1, w2, w3, w4])
-    R =np.diag([w5, 0])
+    Q = np.diag([w1, w2, w4, w5])
+    R =np.diag([w3, 0])
     #转化为用控制量ut表示的，关于状态量的推导方程的矩阵
     M=np.eye(4)
     C=np.zeros((4,2*N))
