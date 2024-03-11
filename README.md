@@ -1,5 +1,5 @@
 # QuadraticPlanning-based-Model-Predictive-Control-MPC-with-cruising-and-lane-change-capability
-A intelligent vehicle Model Predictive Control(MPC) implementation using QuadraticPlanning. The controller is coded in Python. **That's because it is more suitable for using the controller in traffic simulation (vissim, sumo) or RL training.**  
+A intelligent vehicle Model Predictive Control(MPC) implementation using QuadraticPlanning. The controller is coded in Python. **That's because it is more suitable for using Python in traffic simulation (vissim, sumo) or RL training.**  
 **more details can be found in documentation.**  
 
 **# CASE 1. adaptive cruise control**  
