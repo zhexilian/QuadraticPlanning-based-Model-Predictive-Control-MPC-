@@ -8,7 +8,9 @@ Ego vehicle with the proposed controller aims to adaptive cruise to the precedin
 ![图片](https://github.com/zhexilian/QuadraticPlanning-based-Model-Predictive-Control-MPC-/assets/148358711/dc21112f-8b0d-480a-82b1-2612bbeed037) ![图片](https://github.com/zhexilian/QuadraticPlanning-based-Model-Predictive-Control-MPC-/assets/148358711/28d0a5a0-cff9-44d5-b5bc-2f68f08a8aa2)
 
 **# CASE 2. lane-change**  
-Ego vehicle with the proposed controller aims to change lane, as shown in the following figure.  
-![图片](https://github.com/zhexilian/QuadraticPlanning-based-Model-Predictive-Control-MPC-/assets/148358711/f574467a-4b3c-4d11-8ddb-2f1a2ad40ba0)
+Ego vehicle with the proposed controller aims to change lane, as shown in the following figure. It can be seen that the lane-change process is fast. The figure in right shown the lane-change process from a BEV view.    
+![图片](https://github.com/zhexilian/QuadraticPlanning-based-Model-Predictive-Control-MPC-/assets/148358711/cfaa969f-2037-434c-a3ca-6655f01d3750) ![图片](https://github.com/zhexilian/QuadraticPlanning-based-Model-Predictive-Control-MPC-/assets/148358711/fa46af7b-1200-43cf-b227-de65f59d4ebe)
+
+
 
 
